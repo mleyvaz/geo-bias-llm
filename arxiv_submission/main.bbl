@@ -1,4 +1,4 @@
-\begin{thebibliography}{14}
+\begin{thebibliography}{15}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -12,12 +12,12 @@ Haozhe An, Christabel Acquaye, Colin Wang, Zongxia Li, and Rachel Rudinger.
 \newblock arXiv:2406.10486.
 
 \bibitem[Basu and Chakraborty(2026)]{basu2026when}
-Arjun Basu and Pradeep Chakraborty.
+Abhinaba Basu and Pavan Chakraborty.
 \newblock When names change verdicts: Intervention consistency reveals systematic bias in {LLM} decision-making.
 \newblock \emph{arXiv preprint arXiv:2603.18530}, 2026.
 
 \bibitem[Forcada~Rodr{\'{i}}guez et~al.(2025)Forcada~Rodr{\'{i}}guez, Perez-de Vi{\~{n}}aspre, Campos, Klakow, and Gautam]{forcada2025colombian}
-Enrique Forcada~Rodr{\'{i}}guez, Olatz Perez-de Vi{\~{n}}aspre, Jon~Ander Campos, Dietrich Klakow, and Vagner Gautam.
+Elisa Forcada~Rodr{\'{i}}guez, Olatz Perez-de Vi{\~{n}}aspre, Jon~Ander Campos, Dietrich Klakow, and Vagrant Gautam.
 \newblock Colombian waitresses y jueces canadienses: Gender and country biases in occupation recommendations from {LLMs}.
 \newblock \emph{arXiv preprint arXiv:2505.02456}, 2025.
 
@@ -28,12 +28,12 @@ Isabel~O. Gallegos, Ryan~A. Rossi, Joe Barrow, Md~Mehrab Tanjim, Sungchul Kim, F
 \newblock arXiv:2309.00770.
 
 \bibitem[Gupta and Ranjan(2024)]{gupta2024evaluation}
-Shreya Gupta and Raghav Ranjan.
+Shailja Gupta and Rajesh Ranjan.
 \newblock Evaluation of {LLMs} biases towards elite universities: {A} persona-based exploration.
 \newblock \emph{arXiv preprint arXiv:2407.12801}, 2024.
 
 \bibitem[Howell et~al.(2025)Howell, Wang, Du, Melkers, and Shah]{howell2025prestige}
-Andrew Howell, Jerry Wang, Lin Du, Julia Melkers, and Vinit Shah.
+Anthony Howell, Jieshu Wang, Luyu Du, Julia Melkers, and Varshil Shah.
 \newblock Prestige over merit: An adapted audit of {LLM} bias in peer review.
 \newblock \emph{arXiv preprint arXiv:2509.15122}, 2025.
 
@@ -42,6 +42,12 @@ Hayate Iso, Pouya Pezeshkpour, Nikita Bhutani, and Estevam Hruschka.
 \newblock Evaluating bias in {LLMs} for job-resume matching: Gender, race, and education.
 \newblock In \emph{Proceedings of the {NAACL} 2025 Industry Track}, 2025.
 \newblock arXiv:2503.19182.
+
+\bibitem[Leyva-V{\'a}zquez and Smarandache(2026)]{leyva2026prestigio}
+Maikel Leyva-V{\'a}zquez and Florentin Smarandache.
+\newblock El prestigio institucional como sesgo geogr{\'a}fico en los grandes modelos de lenguaje: Un an{\'a}lisis neutros{\'o}fico de dos estudios.
+\newblock \emph{Neutrosophic Computing and Machine Learning}, 2026.
+\newblock URL \url{https://fs.unm.edu/NCML_2/index.php/NCML/article/view/102}.
 
 \bibitem[Li et~al.(2023)Li, Du, Song, Wang, and Wang]{li2023survey}
 Yingji Li, Mengnan Du, Rui Song, Xin Wang, and Ying Wang.
@@ -53,8 +59,8 @@ Tarek Naous, Michael~J. Ryan, Alan Ritter, and Wei Xu.
 \newblock Having beer after prayer? {Measuring Cultural Bias} in large language models.
 \newblock In \emph{Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics}, 2024.
 
-\bibitem[Rao et~al.(2025)Rao, Venkatesan, Cherubini, and Jayagopi]{rao2025invisible}
-P.~S.~B. Rao, Lakshmi~Narayanan Venkatesan, Mauro Cherubini, and Dinesh~Babu Jayagopi.
+\bibitem[Rao et~al.(2025)Rao, Nagarajan~Venkatesan, Cherubini, and Jayagopi]{rao2025invisible}
+Pooja S.~B. Rao, Laxminarayen Nagarajan~Venkatesan, Mauro Cherubini, and Dinesh~Babu Jayagopi.
 \newblock Invisible filters: Cultural bias in hiring evaluations using large language models.
 \newblock \emph{arXiv preprint arXiv:2508.16673}, 2025.
 

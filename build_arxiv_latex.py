@@ -169,15 +169,15 @@ bib = r"""
 }
 
 @article{howell2025prestige,
-  author  = {Howell, Andrew and Wang, Jerry and Du, Lin
-             and Melkers, Julia and Shah, Vinit},
+  author  = {Howell, Anthony and Wang, Jieshu and Du, Luyu
+             and Melkers, Julia and Shah, Varshil},
   title   = {Prestige over Merit: An Adapted Audit of {LLM} Bias in Peer Review},
   journal = {arXiv preprint arXiv:2509.15122},
   year    = {2025}
 }
 
 @article{gupta2024evaluation,
-  author  = {Gupta, Shreya and Ranjan, Raghav},
+  author  = {Gupta, Shailja and Ranjan, Rajesh},
   title   = {Evaluation of {LLMs} Biases Towards Elite Universities:
              {A} Persona-Based Exploration},
   journal = {arXiv preprint arXiv:2407.12801},
@@ -185,7 +185,7 @@ bib = r"""
 }
 
 @article{basu2026when,
-  author  = {Basu, Arjun and Chakraborty, Pradeep},
+  author  = {Basu, Abhinaba and Chakraborty, Pavan},
   title   = {When Names Change Verdicts: Intervention Consistency Reveals
              Systematic Bias in {LLM} Decision-Making},
   journal = {arXiv preprint arXiv:2603.18530},
@@ -212,8 +212,8 @@ bib = r"""
 }
 
 @article{forcada2025colombian,
-  author  = {Forcada Rodr{\'{i}}guez, Enrique and Perez-de-Vi{\~{n}}aspre, Olatz
-             and Campos, Jon Ander and Klakow, Dietrich and Gautam, Vagner},
+  author  = {Forcada Rodr{\'{i}}guez, Elisa and Perez-de-Vi{\~{n}}aspre, Olatz
+             and Campos, Jon Ander and Klakow, Dietrich and Gautam, Vagrant},
   title   = {Colombian Waitresses y Jueces canadienses: Gender and Country
              Biases in Occupation Recommendations from {LLMs}},
   journal = {arXiv preprint arXiv:2505.02456},
@@ -221,12 +221,22 @@ bib = r"""
 }
 
 @article{rao2025invisible,
-  author  = {Rao, P. S. B. and Venkatesan, Lakshmi Narayanan
+  author  = {Rao, Pooja S. B. and Nagarajan Venkatesan, Laxminarayen
              and Cherubini, Mauro and Jayagopi, Dinesh Babu},
   title   = {Invisible Filters: Cultural Bias in Hiring Evaluations
              Using Large Language Models},
   journal = {arXiv preprint arXiv:2508.16673},
   year    = {2025}
+}
+
+@article{leyva2026prestigio,
+  author  = {Leyva-V{\'a}zquez, Maikel and Smarandache, Florentin},
+  title   = {El Prestigio Institucional como Sesgo Geogr{\'a}fico en los
+             Grandes Modelos de Lenguaje: Un An{\'a}lisis Neutros{\'o}fico
+             de Dos Estudios},
+  journal = {Neutrosophic Computing and Machine Learning},
+  year    = {2026},
+  url     = {https://fs.unm.edu/NCML_2/index.php/NCML/article/view/102}
 }
 
 @book{smarandache1998neutrosophy,
@@ -262,7 +272,11 @@ tex = r"""
 % ── Title ────────────────────────────────────────────────────────────────
 \title{\textbf{Institutional Prestige as Geographic Bias in Large Language Models:
 Evidence from Three Factorial Experiments\\
-with Bootstrap Confidence Intervals}\\[4pt]
+with Bootstrap Confidence Intervals}\thanks{An earlier two-study version of
+this work appeared in Spanish in \textit{Neutrosophic Computing and Machine
+Learning} \citep{leyva2026prestigio}.  This extended version adds Study~3
+(journal $\times$ institution prestige), bootstrap confidence intervals
+throughout, and corrected statistical claims.}\\[4pt]
 \large\textit{(El Prestigio Institucional como Sesgo Geográfico en los LLMs:
 Evidencia de Tres Experimentos Factoriales con Intervalos de Confianza Bootstrap)}}
 
@@ -838,11 +852,13 @@ Code, data, and reproducible experiments are available at
 % ── Conflict of Interest ──────────────────────────────────────────────────
 \section*{Conflict of Interest}
 The first author (Maikel Leyva-Vázquez) serves as Editor-in-Chief of
-\textit{Neutrosophic Computing and Machine Learning} (NCML), the journal to which
-this paper is submitted.  To mitigate this conflict, the first author will not
-participate in editorial decisions regarding this manuscript; the review process
-will be handled exclusively by the co-Editor or an appointed Guest Editor.  The
-second author declares no conflict of interest.
+\textit{Neutrosophic Computing and Machine Learning} (NCML), where an earlier
+Spanish-language version of this work was published \citep{leyva2026prestigio};
+the editorial decision for that version was handled by the co-Editor.  NCML is
+also used as the low-prestige journal stimulus in Study~3; this choice was made
+for ecological validity (a genuinely peripheral open-access venue) and the
+results reflect unfavourably on the journal, ruling out promotional intent.
+The second author declares no conflict of interest.
 
 % ── Data Availability ─────────────────────────────────────────────────────
 \section*{Data Availability}
