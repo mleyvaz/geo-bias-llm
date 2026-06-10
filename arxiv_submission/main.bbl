@@ -1,0 +1,82 @@
+\begin{thebibliography}{14}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[An et~al.(2024)An, Acquaye, Wang, Li, and Rudinger]{an2024do}
+Haozhe An, Christabel Acquaye, Colin Wang, Zongxia Li, and Rachel Rudinger.
+\newblock Do large language models discriminate in hiring decisions on the basis of race, ethnicity, and gender?
+\newblock In \emph{Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics}, 2024.
+\newblock arXiv:2406.10486.
+
+\bibitem[Basu and Chakraborty(2026)]{basu2026when}
+Arjun Basu and Pradeep Chakraborty.
+\newblock When names change verdicts: Intervention consistency reveals systematic bias in {LLM} decision-making.
+\newblock \emph{arXiv preprint arXiv:2603.18530}, 2026.
+
+\bibitem[Forcada~Rodr{\'{i}}guez et~al.(2025)Forcada~Rodr{\'{i}}guez, Perez-de Vi{\~{n}}aspre, Campos, Klakow, and Gautam]{forcada2025colombian}
+Enrique Forcada~Rodr{\'{i}}guez, Olatz Perez-de Vi{\~{n}}aspre, Jon~Ander Campos, Dietrich Klakow, and Vagner Gautam.
+\newblock Colombian waitresses y jueces canadienses: Gender and country biases in occupation recommendations from {LLMs}.
+\newblock \emph{arXiv preprint arXiv:2505.02456}, 2025.
+
+\bibitem[Gallegos et~al.(2024)Gallegos, Rossi, Barrow, Tanjim, Kim, Dernoncourt, Yu, Zhang, and Ahmed]{gallegos2024bias}
+Isabel~O. Gallegos, Ryan~A. Rossi, Joe Barrow, Md~Mehrab Tanjim, Sungchul Kim, Franck Dernoncourt, Tong Yu, Ruiyi Zhang, and Nesreen~K. Ahmed.
+\newblock Bias and fairness in large language models: {A} survey.
+\newblock \emph{Computational Linguistics}, 2024.
+\newblock arXiv:2309.00770.
+
+\bibitem[Gupta and Ranjan(2024)]{gupta2024evaluation}
+Shreya Gupta and Raghav Ranjan.
+\newblock Evaluation of {LLMs} biases towards elite universities: {A} persona-based exploration.
+\newblock \emph{arXiv preprint arXiv:2407.12801}, 2024.
+
+\bibitem[Howell et~al.(2025)Howell, Wang, Du, Melkers, and Shah]{howell2025prestige}
+Andrew Howell, Jerry Wang, Lin Du, Julia Melkers, and Vinit Shah.
+\newblock Prestige over merit: An adapted audit of {LLM} bias in peer review.
+\newblock \emph{arXiv preprint arXiv:2509.15122}, 2025.
+
+\bibitem[Iso et~al.(2025)Iso, Pezeshkpour, Bhutani, and Hruschka]{iso2025evaluating}
+Hayate Iso, Pouya Pezeshkpour, Nikita Bhutani, and Estevam Hruschka.
+\newblock Evaluating bias in {LLMs} for job-resume matching: Gender, race, and education.
+\newblock In \emph{Proceedings of the {NAACL} 2025 Industry Track}, 2025.
+\newblock arXiv:2503.19182.
+
+\bibitem[Li et~al.(2023)Li, Du, Song, Wang, and Wang]{li2023survey}
+Yingji Li, Mengnan Du, Rui Song, Xin Wang, and Ying Wang.
+\newblock A survey on fairness in large language models.
+\newblock \emph{arXiv preprint arXiv:2308.10149}, 2023.
+
+\bibitem[Naous et~al.(2024)Naous, Ryan, Ritter, and Xu]{naous2024having}
+Tarek Naous, Michael~J. Ryan, Alan Ritter, and Wei Xu.
+\newblock Having beer after prayer? {Measuring Cultural Bias} in large language models.
+\newblock In \emph{Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics}, 2024.
+
+\bibitem[Rao et~al.(2025)Rao, Venkatesan, Cherubini, and Jayagopi]{rao2025invisible}
+P.~S.~B. Rao, Lakshmi~Narayanan Venkatesan, Mauro Cherubini, and Dinesh~Babu Jayagopi.
+\newblock Invisible filters: Cultural bias in hiring evaluations using large language models.
+\newblock \emph{arXiv preprint arXiv:2508.16673}, 2025.
+
+\bibitem[Smarandache(1998)]{smarandache1998neutrosophy}
+Florentin Smarandache.
+\newblock \emph{Neutrosophy: Neutrosophic Probability, Set, and Logic}.
+\newblock American Research Press, Rehoboth, NM, USA, 1998.
+
+\bibitem[Tamkin et~al.(2023)Tamkin, Askell, Lovitt, Durmus, Joseph, Kravec, Nguyen, Kaplan, and Ganguli]{tamkin2023evaluating}
+Alex Tamkin, Amanda Askell, Liane Lovitt, Esin Durmus, Nicholas Joseph, Shauna Kravec, Karina Nguyen, Jared Kaplan, and Deep Ganguli.
+\newblock Evaluating and mitigating discrimination in language model decisions.
+\newblock \emph{arXiv preprint arXiv:2312.03689}, 2023.
+
+\bibitem[Wan et~al.(2023)Wan, Pu, Sun, Garimella, Chang, and Peng]{wan2023kelly}
+Yixin Wan, George Pu, Jiao Sun, Aparna Garimella, Kai-Wei Chang, and Nanyun Peng.
+\newblock {Kelly} is a {Warm Person}, {Joseph} is a {Role Model}: {Gender Biases} in {LLM-Generated} reference letters.
+\newblock In \emph{Findings of the Association for Computational Linguistics: {EMNLP} 2023}, pages 3730--3748, 2023.
+
+\bibitem[Zheng et~al.(2023)Zheng, Chiang, Sheng, Zhuang, Wu, Zhuang, Lin, Li, Li, Xing, Zhang, Gonzalez, and Stoica]{zheng2023judging}
+Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi~Lin, Zhuohan Li, Dacheng Li, Eric~P. Xing, Hao Zhang, Joseph~E. Gonzalez, and Ion Stoica.
+\newblock Judging {LLM}-as-a-judge with {MT-Bench} and chatbot arena.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2023.
+\newblock arXiv:2306.05685.
+
+\end{thebibliography}
