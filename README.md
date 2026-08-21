@@ -2,10 +2,15 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
+[![arXiv](https://img.shields.io/badge/arXiv-2608.18107-b31b1b.svg)](https://arxiv.org/abs/2608.18107)
+[![HF Paper](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Paper-yellow)](https://huggingface.co/papers/2608.18107)
+[![HF Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/mleyvaz/geo-bias-llm)
 
 **Paper:** "Institutional Prestige as Geographic Bias in Large Language Models: A Neutrosophic Factorial Experiment"  
 **Author:** Maikel Leyva-Vázquez — Universidad Bolivariana del Ecuador / Universidad de Guayaquil  
 **Contact:** mleyvaz@gmail.com  
+**Dataset:** [mleyvaz/geo-bias-llm on Hugging Face](https://huggingface.co/datasets/mleyvaz/geo-bias-llm)  
+**Paper page:** [huggingface.co/papers/2608.18107](https://huggingface.co/papers/2608.18107)  
 
 ---
 
@@ -17,6 +22,37 @@ This repository provides all code and data to reproduce the pilot experiment rep
 - **Factor B — Institution:** Tier 1 (*Columbia University, New York*) vs Tier 5 (*Universidad de Guayaquil, Ecuador*)
 
 **Key finding:** LLMs show negligible bias based on applicant name (−0.079 on a 10-point scale) but consistent bias based on institutional affiliation (+0.221), even in domains where institutional prestige is irrelevant (credit scoring, clinical health experience).
+
+---
+
+## Dataset on Hugging Face
+
+All experimental results are released as a dataset on the Hugging Face Hub:
+
+**https://huggingface.co/datasets/mleyvaz/geo-bias-llm**
+
+```python
+from datasets import load_dataset
+
+# Study 3 — journal x institution prestige (default config)
+ds = load_dataset("mleyvaz/geo-bias-llm")
+
+# Any other split
+ds = load_dataset("mleyvaz/geo-bias-llm", "study1_pilot")
+```
+
+Available configs:
+
+| Config | Contents |
+|---|---|
+| `study3_raw` (default) | Raw responses, journal x institution prestige |
+| `study1_pilot` | 2x2 factorial pilot, per-domain aggregates with NBI |
+| `study1_full` | Full 2x2 run, per-domain aggregates with NBI |
+| `study2` | Study 2 per-domain aggregates with NBI |
+| `bootstrap_ci` | Bootstrap 95% confidence intervals per contrast |
+
+The original result JSONs are preserved verbatim under `raw_json/` in the dataset
+repository, so nothing is lost in the flattening.
 
 ---
 
